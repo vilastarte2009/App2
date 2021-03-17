@@ -51,7 +51,7 @@ public class WebController
 	{ 	logger.debug("Vilas Try credentials ...");
 		if(uname!=null && pass!=null && uname.equals("1") && pass.equals("1"))
 		{
-			logger.debug("Vilas Login success ...");
+			logger.debug("Vilas Login success ...with git Hub");
 			if(request.getSession(false) != null)
 			{	
 			model.put("emp_list", service.getAllEmp());
