@@ -36,9 +36,16 @@ class EmpServiceTest
 		
 		EmpService service = new EmpService(repo2);
 		assertEquals(1, service.getMin());	
-		
-		//assertEquals(5, service.getMax());
-		
+		//assertEquals(5, service.getMax());		
 	}
 
+	@Test
+	public void gt()
+	{
+		int a=5;
+		int b=5;
+		
+		assertTrue((a+b)>9);
+		
+	}
 }
